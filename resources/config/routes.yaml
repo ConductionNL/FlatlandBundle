@@ -1,4 +1,4 @@
 # config/routes.yaml
 conduction_flatland_default_index:
     path:       /
-    controller: Conduction\FlatlandBundle\Controller\DefaultController::index
+    controller: Conduction\FlatlandBundle\Controller\DefaultController::indexAction
