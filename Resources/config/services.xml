@@ -11,7 +11,7 @@
             <call method="setContainer">
                 <argument type="service" id="service_container"/>
             </call>
-            <tag name="controller.service_subscriber"/>
+            <tag name="container.service_subscriber"/>
             <tag name="controller.service_arguments"/>
         </service>
 
