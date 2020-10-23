@@ -25,7 +25,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Conduction\\NLDesignBundle\\" : ""
+			"Conduction\\FlatlandBundle\\" : ""
 		},
 		"exclude-from-classmap" : [
 			"/Tests/"
