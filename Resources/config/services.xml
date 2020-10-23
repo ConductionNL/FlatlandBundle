@@ -8,7 +8,7 @@
 
         <!--Rocket Controllers-->
         <service id="conduction_flatland.default_controller" class="Conduction\FlatlandBundle\Controller\DefaultController" public="true">
-            <tag name="controller.service_subscriber"/>
+            <tag name="container.service_subscriber"/>
             <tag name="controller.service_arguments"/>
             <call method="setContainer">
                 <argument type="service" id="service_container"/>
